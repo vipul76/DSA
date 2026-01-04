@@ -5,7 +5,7 @@ public class LongestRepeatingCharacterReplacement {
         String s = "AABABBA";
         int k=1;
         int result = characterReplacement(s,k);
-        System.out.println(result);
+        System.out.println("Longest repeating character subarray :" + result);
     }
 
     private static int characterReplacement(String s, int k) {
