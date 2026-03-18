@@ -1,0 +1,122 @@
+
+Perfect—now you’re at the real interview prep stage 🔥 I’ll give you dataset-wise, scenario-based questions exactly like interviews (not random practice).
+👉 Use your DataProvider datasets and solve these in StreamPractice.
+
+🔥 🧪 SECTION 1: EMPLOYEE DATASET (MOST IMPORTANT)
+🟢 Scenario 1: HR Analytics Dashboard
+👉 “We need insights for HR”
+1)Get all employee names
+2)Count employees in each department
+3)Find average salary per department
+4)Find highest paid employee
+5)Find total salary expense of company
+
+🟡 Scenario 2: Salary Processing System
+👉 “We are revising salaries”
+Increase salary of all employees by 10%
+Get employees with salary > 80,000
+Find second highest salary
+Find top 5 highest paid employees
+Check if any employee earns > 1 lakh
+
+🟠 Scenario 3: Department Insights
+👉 “Management wants department-level data”
+Group employees by department
+Find highest salary in each department
+Find lowest salary in each department
+Find department with highest average salary
+Count employees per department
+
+🔴 Scenario 4: Advanced Filtering (INTERVIEW 🔥)
+Employees age > 30 and salary > 70k
+Sort employees by salary then age
+Find employee with highest salary in IT
+Get names of employees sorted by salary descending
+Convert employee list to Map (id → employee)
+
+🔥 Scenario 5: REAL INTERVIEW (VERY IMPORTANT)
+Find duplicate employee names (if any)
+Partition employees into:
+salary > 70k
+salary ≤ 70k
+Find department with maximum total salary
+Find youngest employee in each department
+Find employees whose name starts with 'A'
+
+🔥 🧪 SECTION 2: STRING DATASET
+🟢 Scenario: Text Processing System
+Count frequency of each word
+Find duplicate words
+Find first non-repeating word
+Convert all words to uppercase
+Sort words alphabetically
+
+🟡 Scenario: Analytics
+Group words by length
+Count words of each length
+Find longest word
+Find shortest word
+Join all words with comma
+
+🔴 Scenario: Interview Level
+Find top 3 most frequent words
+Partition words by length > 5
+Find words starting with vowel
+Remove duplicates and sort
+Create Map(word → length)
+
+🔥 🧪 SECTION 3: NUMBER DATASET
+🟢 Scenario: Data Filtering
+Filter even numbers
+Filter numbers > 50
+Find sum of all numbers
+Find average
+Find max and min
+
+🟡 Scenario: Transformations
+Square all numbers
+Sort numbers descending
+Remove duplicates
+Get top 5 numbers
+Skip first 5 numbers
+
+🔴 Scenario: Interview Level
+Find second highest number
+Find all pairs with sum = 100
+Partition numbers into even/odd
+Find numbers divisible by 5 and 10
+Count numbers in range (20–80)
+
+🔥 🧪 SECTION 4: MIXED (REAL INTERVIEW CASES)
+💼 Scenario: Company Reporting System
+Get names of employees whose salary > average salary
+Find employees grouped by age range (20–30, 30–40)
+Find most common department
+Find employee names in uppercase sorted by age
+Create Map(department → total salary)
+
+🔥 HOW INTERVIEWER EXPECTS YOU TO SOLVE
+👉 You should use combinations like:
+
+stream()
+.filter()
+.map()
+.sorted()
+.collect()
+
+
+🔥 IMPORTANT PATTERNS TO MASTER
+groupingBy
+mapping
+partitioningBy
+counting
+averagingDouble
+maxBy / minBy
+
+🔥 REAL INTERVIEW TIP
+👉 If you can solve:
+Top K problems
+Grouping problems
+Map conversions
+➡️ You are above average candidate
+

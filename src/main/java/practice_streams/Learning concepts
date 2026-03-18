@@ -1,0 +1,26 @@
+Key Concept
+------------
+1)filter() → keeps/removes elements (needs boolean)
+2)map() → transforms elements (Employee → String)
+
+Remembering notes
+1. Do I need to remove data? → filter
+2. Do I need ordering? → sorted
+3. Do I need one result? → max/min/findFirst
+
+| Type               | Methods                                        |
+| ------------------ | ---------------------------------------------- |
+| Stream methods     | `filter`, `map`, `skip`, `sorted`              |
+| Optional-returning | `findFirst`, `findAny`, `max`, `min`, `reduce` |
+| Optional methods   | `orElse`, `ifPresent`, `map`                   |
+
+Intermediate operator -> filter, map, flatMap, sorted, distinct,limit, skip, peek
+Terminal Operator -> forEach, collect, count, findFirst, findAny, max, min, reduce, anyMatch, allMatch, noneMatch
+Optional Operator -> orElse, orElseGet, orElseThrow, ifPresent, map, filter
+
+-----------------------------------------------------------------------------------------------------------------
+1) These is only used when natural ordering is required.
+    .sorted(Comparator.reverseOrder())
+
+2) When we need, custom sorting based on employee we can go for comparator.
+    .sorted(Comparator.comparing(Employee::getSalary).reversed())
